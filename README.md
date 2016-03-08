@@ -1,10 +1,12 @@
-# ocaml-cordova-plugin-device-example
+# ocaml-cordova-plugin-toast-example
 
-This is an example of the binding to the *device cordova plugin*. See the
-binding [here](https://github.com/dannywillems/ocaml-cordova-plugin-device)
+This is an example of the binding to the *toast cordova plugin*. See the
+binding [here](https://github.com/dannywillems/ocaml-cordova-plugin-toast)
 
-This application shows the device informations in a simple alert generated
-with js_of_ocaml.
+This application shows a simple toast with 'Hello World' with js_of_ocaml.
+
+TODO:
+* Add buttons to test each methods
 
 ## How to compile ?
 
