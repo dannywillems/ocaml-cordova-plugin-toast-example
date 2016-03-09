@@ -5,7 +5,7 @@ binding [here](https://github.com/dannywillems/ocaml-cordova-plugin-toast)
 
 This application shows a simple toast with 'Hello World' with js_of_ocaml.
 
-![screenshot_android.png](github_res/screenshot_android.png)
+![screenshot_android.png](github_res/screenshot_android.png) ![screenshot_ios.png](github_res/screenshot_ios.png)
 
 ## How to compile ?
 
