@@ -41,7 +41,7 @@ make build_ios
 make build_android
 ```
 
-The archive is copied in the build/your_platform].
+The archive is copied in the build/[your_platform].
 
 If you use Android, you can install and run directly on your phone:
 ```Makefile
