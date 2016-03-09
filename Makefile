@@ -40,7 +40,8 @@ CSS_FILES					= $(patsubst $(LESS_DIR)/%.less, $(CSS_DIR)/%.css, $(LESS_FILES))
 
 ##### DIRECTORIES AND FILES TO COPY FROM DEV LOCATION TO WWW LOCATION
 ##### By default, it copies index.html
-DEV_DIRECTORY_LIST			= $(DEV_DIRECTORY)/index.html
+DEV_DIRECTORY_LIST			= $(DEV_DIRECTORY)/index.html \
+													$(DEV_DIRECTORY)/lib
 ##### Don't change this variable if you you want to keep the same directory structure into the prod directory
 PROD_DIRECTORY_LIST			= $(patsubst $(DEV_DIRECTORY)/%, $(PROD_DIRECTORY)/%, $(DEV_DIRECTORY_LIST))
 
